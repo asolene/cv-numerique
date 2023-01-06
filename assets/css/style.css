@@ -57,6 +57,7 @@ header {
   border-bottom: 5px solid #B6CCFE;
 }
 
+
 html {
   scroll-behavior: smooth;
 }
@@ -118,6 +119,11 @@ ul.timeline > li:before {
 
 #btnCv {
   background-color: white;
+}
+
+#btnCv:hover {
+  color:#B6CCFE;
+
 }
 
 
