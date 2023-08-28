@@ -1,24 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Poppins:wght@300;400&display=swap');
+
 /* text */
 
 h1 {
   font-size: 100px;
   color: #B6CCFE;
- font-family: 'Bai Jamjuree', sans-serif;
+  font-family: 'Fredoka', sans-serif;
+  text-align: center;
 }
 
 h2 {
   color: #B6CCFE;
- font-family: 'Bai Jamjuree', sans-serif;
+  font-family: 'Fredoka', sans-serif;
+  text-align: center;
 }
 
 h3 {
   margin-top: 30px;
   font-size: 35px;
   color: #B6CCFE;
- font-family: 'Bai Jamjuree', sans-serif;
+  font-family: 'Fredoka', sans-serif;
+  text-align: center;
 }
 
-h4{
+h4 {
   color: #B6CCFE;
 }
 
@@ -26,10 +31,11 @@ h5 {
   color: #B6CCFE;
 }
 
-
 header p {
   color: white;
+  text-align: center;
 }
+
 
 footer p {
 
@@ -41,19 +47,20 @@ footer p {
 }
 
 a {
-  text-decoration: none;
+  color: white;
 }
 
 p {
-  font-family: 'Pontano Sans', sans-serif;
-  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
 }
+
+
 
 /* fin text */
 
 header {
-  background-color: black;
-  height: 100%;
+  background-color: #212529;
   border-bottom: 5px solid #B6CCFE;
 }
 
@@ -65,15 +72,31 @@ html {
 .skillttl {
   margin-top: 30px;
   margin-bottom: 30px;
+  color: rgb(182, 204, 254);
+  padding-left: 10px;
+  margin: 5px;
+
 }
 
- footer {
-  background-color: black;
-  height: 100%;
-  padding-bottom: 20px;
-  
+footer {
+  background-color: #212529;
+}
 
- }
+svg {
+  fill: #b6ccfe;
+  height: 10vh;
+}
+
+.footer-img {
+  display: flex;
+  justify-content: center;
+  gap: 15vh;
+}
+
+.navbar {
+  font-family: 'Poppins', sans-serif;
+}
+
 
 /* exp et formation  */
 
@@ -81,6 +104,7 @@ ul.timeline {
   list-style-type: none;
   position: relative;
 }
+
 ul.timeline:before {
   content: ' ';
   background: #d4d9df;
@@ -91,11 +115,13 @@ ul.timeline:before {
   height: 100%;
   z-index: 400;
 }
-ul.timeline > li {
+
+ul.timeline>li {
   margin: 20px 0;
   padding-left: 20px;
 }
-ul.timeline > li:before {
+
+ul.timeline>li:before {
   content: ' ';
   background: white;
   display: inline-block;
@@ -111,23 +137,91 @@ ul.timeline > li:before {
 /* to top button */
 
 #myBtn {
-  display: none; 
-  position: fixed; 
-  bottom: 20px; 
-  right: 30px; 
-  z-index: 99; 
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
   background-color: white;
 }
 
 #btnCv {
   background-color: white;
+
 }
 
 #btnCv:hover {
-  color:#B6CCFE;
+  color: #B6CCFE;
 
 }
 
-.resize{
-  max-width: 100px;
+.resize {
+  max-width: 10vh;
+}
+
+
+
+.card {
+  margin-bottom: 5vh;
+}
+
+#skills-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+#dev-design {
+  display: flex;
+  gap: 20vh;
+  margin-top: 5vh;
+
+}
+
+#lan-hob {
+  display: flex;
+  gap: 20vh;
+  margin-top: 5vh;
+}
+
+
+
+@media screen and (min-height: 767px) {
+
+  #dev-design {
+    display: flex;
+    flex-direction: column;
+    gap: 0vh;
+  }
+
+  #lan-hob {
+    display: flex;
+    flex-direction: column;
+    gap: 0vh;
+  }
+
+}
+
+
+.pantone {
+  border: solid 2px #B6CCFE;
+  background-color: white;
+}
+
+.list {
+  background-color: #B6CCFE;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  width: 30vh;
+  height: auto;
+  margin: 10px;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+}
+
+.pantone:hover {
+  transform: rotate(-5deg);
+  transition: 0.2s ease-in-out;
+  transform-origin: bottom left;
 }
