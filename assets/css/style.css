@@ -25,10 +25,14 @@ h3 {
 
 h4 {
   color: #B6CCFE;
+  font-family: 'Fredoka', sans-serif;
+
 }
 
 h5 {
   color: #B6CCFE;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
 }
 
 header p {
