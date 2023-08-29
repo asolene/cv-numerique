@@ -205,6 +205,20 @@ ul.timeline>li:before {
     gap: 0vh;
   }
 
+  
+.footer-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3vh;
+
+}
+
+svg {
+  height: 5vh;
+}
+
 }
 
 
