@@ -49,10 +49,9 @@ nav ul {
   padding-bottom: 5vh;
 }
 
-#about {
+#aPropos {
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
+  gap: 15vh;
 
 }
 
