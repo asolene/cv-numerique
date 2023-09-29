@@ -45,6 +45,10 @@ nav ul {
 
 }
 
+.padding-bottom{
+  padding-bottom: 5vh;
+}
+
 #about {
   display: flex;
   flex-direction: row;
@@ -80,6 +84,12 @@ nav ul {
   list-style-type: none;
 
 }
+
+#aboutLeft li {
+  list-style-type: none;
+
+}
+
 
 #aboutRight h2 {
   padding-bottom: 3vh;
