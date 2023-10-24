@@ -16,3 +16,8 @@ document.getElementById("myBtn").onclick =function topFunction() {
   document.documentElement.scrollTop = 0; 
 }
 
+
+document.getElementById('burger-menu').addEventListener('click', function () {
+
+  document.querySelector('ul.topnav').classList.toggle('menu-open');
+});
