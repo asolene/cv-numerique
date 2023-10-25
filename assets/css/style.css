@@ -67,7 +67,7 @@ a {
 #burger-menu {
   display: none;
   color: #CEBFD5;
-
+  height: 2vw;
 }
 
 .padding-bottom {
@@ -328,14 +328,17 @@ svg {
 
   #aboutRight {
     width: 100%;
+    padding: 0;
   }
 
   #aboutLeft {
     width: 100%;
+    padding: 0;
   }
 
   #xp {
     width: 100%;
+    padding: 0;
   }
 
   #skillsBlocks {
@@ -347,10 +350,12 @@ svg {
   .skillsBlock {
     width: 100%;
     margin-bottom: 10vh;
+    padding: 0;
   }
 
   #languages {
     width: 100%;
+    padding: 0;
   }
 
   #cardContainer {
@@ -386,8 +391,19 @@ svg {
 
   #burger-menu {
     display: block;
-    text-align: end;
     margin: 10px 20px 15px 0;
+
+    height: 6vh;
+  }
+
+  nav li {
+    width: 50vw;
+    height: 55px;
+    border: none;
+  }
+
+  nav li:hover {
+    border: 0;
   }
 
 }
